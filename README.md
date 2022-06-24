@@ -1,8 +1,8 @@
-# King County Housing Data Analysis
-Authors: Tom Chapman, Anton Smirnov
+# Real Estate Investment Opportunities in King County
+Authors: Anton Smirnov, Tom Chapman
 
 ## Overview
-The King County housing market is one of the hottest in the country, remaining resilient even through the recent decline in demand. For this project, we will utilize linear regression modelling to analyze sales data and provide recommendations to investors looking to get in on the fun.
+The King County housing market is one of the hottest in the country, remaining resilient even through worseniing economic conditions in the 2nd quarter of 2022. For this project, we will utilize linear regression modelling to analyze sales data and provide recommendations to investors looking to get in on the fun.
 
 ## Business Problem
 We (Atoman Research) are based in King County and working on a project for a real estate investment trust. They would like us to use our area expertise to advise them on what sort of properties are likely to maximize the value of their investment. They have been tight-lipped about their plans for the properties they purchase, so we do not know if they intend to buy and hold, rennovate, demolish and rebuild, etc.
@@ -15,7 +15,18 @@ Because we aim to maximize the value of our clients' investment, we do not belie
 ## Modelling
 Our modelling efforts included a dummy regressor model, a simple linear regression model, and two multiple linear regression models. The models are presented in order within the completed notebook from simplest to most complex to demonstrate our iterative process. For the purposes of this summary, we will focus on the final multiple linear regression model which includes all of the features we utilized.
 
-INSERT MODEL SUMMARY/DATA HERE.
+Our final model's target feature was price (USD) per square foot and included the following features:
+* Number of Bedrooms
+* Number of Bathrooms
+* Lot Square Footage
+* Number of Floors
+* Waterfront (Yes or No)
+* Property Condition
+* Building Grade
+* Year Built
+* Zip Code
+
+![](images/model.png)
 
 ## Results
 In this section, we will discuss the performance and validity of our model, as well as the impact of certain features with the largest correlation coefficients. Note that some of the data referenced here appears below the written work, specifically the train/test comparisons of R2 and RMSE.
@@ -30,7 +41,6 @@ Based on our evaluation of model performance, we believe its use is warranted pr
 
 Zip Codes with the highest impact on price per square foot are visualized as follows:
 ![](images/zip_coefs.png)
-
 
 The mean price per square foot in our target zip codes is displayed below:
 ![](images/mean_psft_zip.png)
@@ -63,9 +73,9 @@ See the full analysis in the [Jupyter Notebook](king_county_final.ipynb) or revi
 
 For additional info, contact Tom Chapman or Anton Smirnov as follows:
 
+- Anton:  antonalekssmirnov@gmail.com  
 - Tom:    thomas.h.chapman@gmail.com
-- Anton:  antonalekssmirnov@gmail.com   
-
+ 
 ## Repository Contents
 - data
 - images
