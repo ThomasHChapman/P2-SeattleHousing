@@ -69,7 +69,7 @@ Given that our final model only captures ~66% of the variance in price per squar
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](final_kc_notebook.ipynb) or review [this presentation](Real estate investment opportunities in King county.pdf).
+See the full analysis in the [Jupyter Notebook](final_kc_notebook.ipynb) or review [this presentation](final_kc_presentation.pdf).
 
 For additional info, contact Tom Chapman or Anton Smirnov as follows:
 
@@ -82,7 +82,8 @@ For additional info, contact Tom Chapman or Anton Smirnov as follows:
 - working notebooks
 - .gitignore
 - README.md
-- Real estate investment opportunities in King county.pdf
 - final_kc_notebook.ipynb
+- final_kc_presentation.pdf
+
 
  
