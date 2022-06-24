@@ -13,7 +13,7 @@ For this analysis we utilized a dataset of King County sales records collected o
 Because we aim to maximize the value of our clients' investment, we do not believe home price is the most meaningful target variable. Certainly a higher sale price is appealing, but we must also consider the risk that comes with large individual investments. Expensive homes have a limited pool of buyers, even in a wealthy locale like King County. We will focus our analysis on the price per square foot of the properties in our data in order to allow our clients to make investment decisions that match their specific fund sizes and risk tolerances.
 
 ## Modelling
-Our modelling efforts included a dummy regressor model, a simple linear regression model, and two multiple linear regression models. The models are presented in order within the [completed notebook](king_county_final.ipynb) from simplest to most complex to demonstrate our iterative process. For the purposes of this summary, we will focus on the final multiple linear regression model which includes all of the features we utilized.
+Our modelling efforts included a dummy regressor model, a simple linear regression model, and two multiple linear regression models. The models are presented in order within the [completed notebook](final_kc_notebook.ipynb) from simplest to most complex to demonstrate our iterative process. For the purposes of this summary, we will focus on the final multiple linear regression model which includes all of the features we utilized.
 
 Our final model's target feature was price (USD) per square foot and included the following features:
 * Number of Bedrooms
@@ -69,7 +69,7 @@ Given that our final model only captures ~66% of the variance in price per squar
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](king_county_final.ipynb) or review [this presentation](king_county_presentation.pdf).
+See the full analysis in the [Jupyter Notebook](final_kc_notebook.ipynb) or review [this presentation](Real estate investment opportunities in King county.pdf).
 
 For additional info, contact Tom Chapman or Anton Smirnov as follows:
 
@@ -82,7 +82,7 @@ For additional info, contact Tom Chapman or Anton Smirnov as follows:
 - working notebooks
 - .gitignore
 - README.md
-- king_county_presentation.pdf
-- king_county_final.ipynb
+- Real estate investment opportunities in King county.pdf
+- final_kc_notebook.ipynb
 
  
